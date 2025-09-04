@@ -57,9 +57,9 @@ const questions = [
       { text: "Sostenibile e connessa", type: "Simbiotista" },
     ],
   },
-]
+];
 
-const POST_URL = "https://script.google.com/macros/s/YOUR_DEPLOYED_SCRIPT_ID/exec"; // Inserisci qui il tuo URL script pubblico
+const POST_URL = "https://script.google.com/macros/s/YOUR_DEPLOYED_SCRIPT_ID/exec"; // Replace with real script
 
 export default function Quiz() {
   const [step, setStep] = useState(0)
