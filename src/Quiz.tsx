@@ -1,7 +1,3 @@
-// React + Tailwind + logic per quiz a DOMANDA SINGOLA ALLA VOLTA
-// Profila: Dataista, Primitivista, Simbiotista
-// Mostra biglietto finale e invia risultati a Google Sheets
-
 import { useState, useEffect } from "react"
 
 const questions = [
